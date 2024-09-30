@@ -62,7 +62,7 @@ const Products = [{
     id : 6 ,
     title : "IPhone 14",
     descr : "Apple iPhone 14 128GB  Blue  offers a 6.1 Super Retina XDR display, A15 Bionic chip, dual 12MP cameras with advanced low-light performance." , 
-    imgurl : "images/iphone14.jpeg",
+    imgurl : "images/iphone14normal.jpeg",
     price : "40000" ,
     no_items : 0
 },
