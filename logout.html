@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="./css/Login&registeration.css">
+        <title>Login</title>
+    </head>
+<body>
+    <header>
+        <nav>
+            <div class="main-navbar shadow-sm ">
+                <div class="top-navbar">
+                <div class="container-fluid">
+                    <div class="row linksPosition">
+                        <div class="col-md-2 rows d-md-block d-lg-block">
+                            <a href="index.html">
+                                <img src="images/logo.png" class="logo me-5" alt="france-logo" height="80px" width="150px">
+                            </a>
+                        </div>
+                        <div class="col-md-5 my-auto rows">
+                            <form role="search">
+                                <div class="input-group">
+                                    <input type="search" placeholder="Search your product" class="form-control" />
+                                    <button class="btn bg-white" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-5 my-auto ">
+                            <ul class="nav justify-content-end ">
+                                
+                                <li class="nav-item me-1">
+                                    <a class="nav-link" id="no_items" href="Cart.html">
+                                        <i class="fa fa-shopping-cart" ></i> 
+                                    </a>
+                                </li>
+    
+                                <ul id="Links" class="" style="list-style-type: none;">  
+                                    <li class="nav-item login-item" >
+                                        <a class="login-link"  href="Login.html">Log in </a> 
+                                    </li>
+                                    <li class="nav-item mx-3 login-item" >
+                                        <a class="login-link"  href="Register.html">Register </a> 
+                                    </li>
+                                </ul>
+                                <li class="nav-item dropdown d-flex" id="user-info">
+                                    <a class="nav-link  me-2" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa fa-user me-2 mt-1 "></i>
+                                    </a>
+                                    <a class="dropdown-item mt-2 " id="logoutbtn" href="logout.html"><i class="fa fa-sign-out"></i> Logout</a>                
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+            </nav>
+        </header>        
+</header>
+
+
+<div class="body_login">
+    
+    <div class="login-box">
+        <div class="login-header">
+            <header>Welcome To E-Techno Store</header>
+        </div>
+        <div class="input-submit">
+            <button class="submit-btn" id="logout" type="submit"></button>
+            <label for="submit" style="font-weight: bold;">Log out</label>
+        </div>
+       
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/logout.js"></script>
+</body>
+</html>
